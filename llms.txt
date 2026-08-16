@@ -1,0 +1,16 @@
+# Tashfeen Mahmud — Resume
+
+> One resume, three formats, one source of truth. AI Enablement & Knowledge Systems Leader — 16+ years (2009–present) across knowledge infrastructure, docs-as-code, software release management and QA, 10+ years in formal leadership; builds with AI daily. Contact: tashfeenmahmud@gmail.com.
+
+## Read this first
+- [Markdown resume](for-agents/resume.md): canonical machine-readable version
+- [Structured JSON](for-agents/resume.json): same content, structured
+
+## Human version
+- [Web page](https://tashfeenm.github.io/resume/): one-page release-notes layout
+- [PDF](for-humans/Tashfeen_Mahmud_Resume.pdf): tagged one-page PDF of the web page
+
+## Contact
+- [Email](mailto:tashfeenmahmud@gmail.com): tashfeenmahmud@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/tashfeenca): profile and recommendations
+- [GitHub](https://github.com/tashfeenm): public projects

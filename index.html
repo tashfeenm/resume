@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<title>Tashfeen Mahmud — Resume</title>
+<style>
+  :root {
+    --font-body: "Carlito","Calibri","Helvetica Neue",Arial,sans-serif;
+    --font-mono: "DejaVu Sans Mono","Menlo","Consolas",monospace;
+    --font-h1: "TeX Gyre Heros Cn","Arial Narrow","Helvetica Neue",Arial,sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-variant-ligatures: none; }
+  a { color: inherit; text-decoration: none; border-bottom: 1px dotted #8E948A; }
+  a:hover, a:focus { border-bottom: 1px solid #3E7300; outline: none; }
+  html, body { margin:0; }
+  @page { size: Letter; margin: 0; }
+  body {
+    font-family: var(--font-body);
+    color: #14171A;
+    background: #FCFCFA;
+    font-size: 9pt;
+    line-height: 1.3;
+  }
+  .page { width: 8.5in; height: 11in; padding: 24px 42px 16px 42px; position: relative; overflow: hidden; }
+
+  /* ---------- header ---------- */
+  .hdr { width: 100%; overflow: hidden; border-bottom: 2.5px solid #14171A; padding-bottom: 8px; }
+  .hdr-left { float: left; width: 70%; }
+  .hdr-right { float: right; width: 28%; text-align: right; }
+  h1 {
+    font-family: var(--font-h1);
+    font-size: 26pt; letter-spacing: 1.4px; font-weight: bold;
+    text-transform: uppercase; line-height: 1;
+  }
+  .role {
+    font-family: var(--font-mono);
+    font-size: 7.8pt; color: #3E7300; margin-top: 5px; letter-spacing: 0.2px;
+  }
+  .contact { font-size: 8.2pt; color: #4A4F48; margin-top: 4px; }
+  .contact a { color: inherit; text-decoration: none; }
+  .buildstamp {
+    font-family: var(--font-mono);
+    font-size: 7.1pt; color: #4A4F48; line-height: 1.5;
+    border: 1px solid #D9DCD4; padding: 6px 8px; text-align: left;
+    background: #F4F5F1; margin-top: 2px;
+  }
+  .buildstamp b { color: #14171A; }
+  .buildstamp .g { color: #3E7300; font-weight: bold; }
+
+  /* ---------- columns ---------- */
+  .cols { width: 100%; overflow: hidden; margin-top: 8px; }
+  .rail { float: left; width: 28.5%; }
+  .main { float: right; width: 67.5%; }
+
+  .sec { display: block;
+    font-family: var(--font-mono);
+    font-size: 7.6pt; font-weight: bold; letter-spacing: 1.6px;
+    color: #14171A; text-transform: uppercase;
+    border-bottom: 1px solid #14171A; padding-bottom: 3px; margin: 10px 0 5px 0;
+  }
+  .sec:first-child { margin-top: 0; }
+  .sec .hash { color: #76B900; }
+
+  /* ---------- rail: metrics ---------- */
+  .metric { margin-bottom: 5px; }
+  .metric .num {
+    font-family: var(--font-mono);
+    font-size: 12.5pt; font-weight: bold; color: #14171A; line-height: 1.05;
+  }
+  .metric .num span.unit { font-size: 9pt; }
+  .metric .lbl { font-size: 7.7pt; color: #4A4F48; margin-top: 1px; line-height: 1.18; }
+
+  .dcim {
+    border-left: 3px solid #76B900; background: #F4F8EA;
+    padding: 7px 9px; margin: 9px 0 2px 0; font-size: 8.2pt; line-height: 1.3;
+  }
+  .dcim b { display: block; font-size: 8.3pt; }
+
+  .railgroup { margin-bottom: 5px; font-size: 8pt; line-height: 1.28; }
+  .railgroup b { display: block; font-size: 7.6pt; font-family: var(--font-mono); color: #3E7300; letter-spacing: 0.4px; margin-bottom: 1px; }
+  .railgroup span { color: #3A3F3A; }
+
+  .beyond { font-size: 8.2pt; line-height: 1.32; margin-bottom: 5px; color: #3A3F3A; }
+  .beyond b { color: #14171A; }
+  .beyond a { color: inherit; text-decoration: none; }
+
+  /* ---------- main: releases ---------- */
+  .rel { margin-bottom: 7px; padding-left: 12px; border-left: 2px solid #DADDD5; position: relative; }
+  .relhead { overflow: hidden; }
+  .ver {
+    font-family: var(--font-mono);
+    font-size: 8pt; font-weight: bold; color: #3E7300;
+  }
+  .rel .org { font-size: 10.4pt; font-weight: bold; display: inline; margin: 0; }
+  .rel .title { font-size: 8.7pt; font-style: italic; color: #3A3F3A; }
+  .rel .dates {
+    float: right; font-family: var(--font-mono);
+    font-size: 7.4pt; color: #4A4F48; padding-top: 3px;
+  }
+  .tag {
+    font-family: var(--font-mono); font-size: 6.6pt;
+    border: 1px solid #B9BFAF; color: #4A503F; padding: 0px 4px;
+    border-radius: 2px; margin-left: 4px; position: relative; top: -1px;
+    background: #F4F5F1;
+  }
+  .tag.g { border-color: #76B900; color: #3E7300; background: #F0F6E2; font-weight: bold; }
+  .rel ul { margin: 3px 0 0 0; list-style: none; }
+  .rel li { font-size: 8.6pt; line-height: 1.3; margin-bottom: 2px; padding-left: 10px; text-indent: -10px; color: #23272B; }
+  .rel li:before { content: "\2013\00a0"; color: #9AA090; }
+  .rel li b { color: #101418; }
+
+  /* earlier releases */
+  .early { border-left: 2px solid #DADDD5; padding-left: 12px; }
+  .early table { border-collapse: collapse; width: 100%; }
+  .early td { font-size: 8.4pt; padding: 1.5px 0; vertical-align: top; color: #23272B; }
+  .early td.v { font-family: var(--font-mono); font-size: 7.4pt; color: #3E7300; font-weight: bold; width: 0.42in; padding-top: 3px; }
+  .early td.d { font-family: var(--font-mono); font-size: 7.2pt; color: #5A5F58; width: 0.72in; text-align: right; padding-top: 3px; }
+  .early b { color: #101418; }
+
+  /* footer */
+  .foot {
+    clear: both; border-top: 1px solid #DADDD5; padding-top: 5px; margin-top: 6px;
+    font-family: var(--font-mono); font-size: 7.4pt; color: #5F645B;
+  }
+  .foot .g { color: #3E7300; }
+  .foot .line2 { margin-top: 2px; }
+
+  /* ---------- screen presentation ---------- */
+  @media screen and (min-width: 901px) {
+    body { background: #ECEEE9; }
+    .page { margin: 24px auto; box-shadow: 0 4px 24px rgba(20,23,26,0.15); }
+  }
+
+  @media screen and (max-width: 900px) {
+    .page { width: auto; height: auto; overflow: visible; padding: 16px; }
+    .hdr-left, .hdr-right { float: none; width: 100%; text-align: left; }
+    .hdr-right { margin-top: 10px; }
+    .hdr-right .buildstamp { text-align: left; }
+    .main, .rail { float: none; width: 100%; }
+    .rail { margin-top: 14px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <header class="hdr">
+    <div class="hdr-left">
+      <h1>Tashfeen Mahmud</h1>
+      <div class="role">$ career --headline "AI Enablement &amp; Knowledge Systems Leader — Knowledge Infrastructure, Docs-as-Code &amp; Release Operations"</div>
+      <div class="contact">Langley, BC (PT) · <a href="mailto:tashfeenmahmud@gmail.com">tashfeenmahmud@gmail.com</a> · <a href="https://www.linkedin.com/in/tashfeenca">linkedin.com/in/tashfeenca</a> · <a href="https://github.com/tashfeenm">github.com/tashfeenm</a></div>
+    </div>
+    <div class="hdr-right">
+      <div class="buildstamp">
+        release: <b>v11.8.0</b> <span class="g">stable</span><br>
+        uptime:&nbsp; <b>16+ yrs</b> · <b>10+</b> leading<br>
+        teams:&nbsp;&nbsp; <b>2&#8211;40</b> people led<br>
+        <span style="white-space:nowrap">scope: docs · QA · release · AI</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="cols">
+
+    <!-- MAIN -->
+    <main class="main">
+      <h2 class="sec"><span class="hash" aria-hidden="true">##</span> Release History <span style="letter-spacing:0; text-transform:none; color:#7A7F76; font-weight:normal;">&nbsp;— recent releases in full; earlier versions abridged, as changelogs should be</span></h2>
+
+      <!-- Samsung -->
+      <div class="rel">
+        <div class="relhead">
+          <span class="dates">2024 &#8211; now</span>
+          <span class="ver">v11.0</span>&nbsp; <h3 class="org">Samsung Research Canada</h3>
+          <span class="tag g">AI</span><span class="tag">docs-as-code</span>
+        </div>
+        <div class="title">Professional III, Technical Writing — Documentation Programs &amp; AI Enablement</div>
+        <ul>
+          <li>Own the <b>documentation release lifecycle for Samsung Knox APIs &amp; Samsung Education platforms</b> — synced to release cadences across parallel versions</li>
+          <li>Built AI-assisted <b>docs &amp; review automation</b> — agentic workflows, custom Knox skills, MCP, CLIs — manual production effort <b>up to &#8722;80%</b></li>
+          <li>Mentor developers and sign off on REST API designs for product releases; <b>API Governance</b> committee member</li>
+        </ul>
+      </div>
+
+      <!-- ICBC -->
+      <div class="rel">
+        <div class="relhead">
+          <span class="dates">2023 &#8211; 2024</span>
+          <span class="ver">v10.0</span>&nbsp; <h3 class="org">ICBC</h3> <span class="title" style="display:inline">(via Serendip Consulting)</span>
+          <span class="tag">public sector</span>
+        </div>
+        <div class="title">Lead Procedure Analyst</div>
+        <ul>
+          <li>Led 6 analysts producing procedures &amp; writing guidelines for the org-wide <b>SAP SuccessFactors (HR)</b> implementation; introduced Copilot-based drafting &amp; editorial workflows</li>
+        </ul>
+      </div>
+
+      <!-- Affirm -->
+      <div class="rel">
+        <div class="relhead">
+          <span class="dates">2022 &#8211; 2023</span>
+          <span class="ver">v9.0</span>&nbsp; <h3 class="org">Affirm</h3>
+          <span class="tag">enablement</span><span class="tag">fintech</span>
+        </div>
+        <div class="title">Information Architect</div>
+        <ul>
+          <li>Directed documentation, support &amp; training across HR, engineering &amp; L&amp;D platforms; launched org-wide engineering onboarding <b>(NPS 9.8)</b> and Thor (internal build system) onboarding; maintained regulatory-compliant policies for payment plans and insurance</li>
+          <li>Consolidated fragmented docs platforms into one source of truth with Product leadership (<b>$140K+/yr saved</b>); unified search hub IA &amp; taxonomy — findability <b>+300%</b></li>
+        </ul>
+      </div>
+
+      <!-- Hyperview -->
+      <div class="rel">
+        <div class="relhead">
+          <span class="dates">2020 &#8211; 2022</span>
+          <span class="ver">v8.0</span>&nbsp; <h3 class="org">Hyperview</h3>
+          <span class="tag">DCIM</span><span class="tag">QA</span><span class="tag">release</span>
+        </div>
+        <div class="title">Lead, Documentation &amp; QA — Data Center Infrastructure Management platform</div>
+        <ul>
+          <li>Owned end-to-end <b>deployment, admin &amp; API documentation for DCIM software</b> — datacenter assets, power, cooling &amp; capacity — for enterprise &amp; government customers</li>
+          <li>Led <b>pre-release QA validation &amp; release coordination</b> (team of up to 11); API design &amp; testing practices cut test cycles <b>33%</b>; ran the defect lifecycle</li>
+          <li>Led ISO / SOC 2 / multi-jurisdiction compliance reviews; rebuilt <b>Hyperview University</b> — support demos <b>220 &#8594; 35/mo</b>, engagement +31%</li>
+        </ul>
+      </div>
+
+      <!-- EA -->
+      <div class="rel">
+        <div class="relhead">
+          <span class="dates">2019 &#8211; 2020</span>
+          <span class="ver">v7.0</span>&nbsp; <h3 class="org">Electronic Arts</h3>
+          <span class="tag">platform</span>
+        </div>
+        <div class="title">Information Architect — Frostbite Engine</div>
+        <ul>
+          <li>Led documentation &amp; education strategy for the Frostbite engine across cross-functional projects of 2&#8211;20 with Product, Engineering &amp; Domain leadership</li>
+          <li>Maintained <b>versioned content across parallel engine branches</b>; grew docs team <b>2 &#8594; 6</b>; onboarding revamp improved time-to-proficiency by <b>up to 40%</b></li>
+        </ul>
+      </div>
+
+      <!-- Hyperwallet -->
+      <div class="rel">
+        <div class="relhead">
+          <span class="dates">2014 &#8211; 2016</span>
+          <span class="ver">v4.0</span>&nbsp; <h3 class="org">Hyperwallet / PayPal</h3>
+          <span class="tag">fintech</span><span class="tag">APIs</span>
+        </div>
+        <div class="title">Business Analyst / Technical Writer — payments fintech (acquired by PayPal)</div>
+        <ul>
+          <li>Product owner for the platform&#8217;s REST APIs — designed them and directed <b>API documentation, developer-portal engineering &amp; test-case management</b>; <b>1B+ transactions/yr</b> (teams of 2&#8211;10)</li>
+          <li>Delivered programs meeting <b>SOC 1/2, PCI, ISO 27001, Sec. 508 &amp; GDPR</b>; identity verification with a 0% false-positive rate</li>
+        </ul>
+      </div>
+
+      <!-- earlier -->
+      <h2 class="sec" style="margin-top:12px;"><span class="hash" aria-hidden="true">##</span> Earlier Releases <span style="letter-spacing:0; text-transform:none; color:#7A7F76; font-weight:normal;">&nbsp;— abridged</span></h2>
+      <div class="early">
+        <table>
+          <tr><td class="v">v6.0</td><td><b>BMC Software</b> — Lead Info Developer, BMC Helix: content teams 3&#8211;10 across 2&#8211;7 products; draft-to-review &#8722;53%</td><td class="d">2017&#8211;18</td></tr>
+          <tr><td class="v">v5.0</td><td><b>CA Technologies</b> — Principal Info Engineer: content-platform migration; API-docs workshops for 120+ writers</td><td class="d">2016&#8211;17</td></tr>
+          <tr><td class="v">v3.0</td><td><b>FDM Software</b> — Supervisor, Quality &amp; Release Management: build, release, QA, docs &amp; onboarding end-to-end for 4.5 yrs; FDM Language +15% annual revenue; NFIRS compliance</td><td class="d">2009&#8211;14</td></tr>
+        </table>
+      </div>
+
+    </main>
+
+    <!-- LEFT RAIL -->
+    <aside class="rail">
+
+      <h2 class="sec"><span class="hash" aria-hidden="true">##</span> Impact Dashboard</h2>
+      <div class="metric"><div class="num">220 &#8594; 35</div><div class="lbl">monthly support demos after enablement rebuild (Hyperview)</div></div>
+      <div class="metric"><div class="num">&#8722;53<span class="unit">%</span></div><div class="lbl">draft-to-review cycle time across BMC Helix documentation (BMC)</div></div>
+      <div class="metric"><div class="num">$140K+<span class="unit">/yr</span></div><div class="lbl">saved consolidating documentation platforms (Affirm)</div></div>
+      <div class="metric"><div class="num">1B+<span class="unit">/yr</span></div><div class="lbl">transactions on payment APIs I designed, owned, and documented (Hyperwallet)</div></div>
+      <div class="metric"><div class="num"><span class="unit">up to </span>&#8722;80<span class="unit">%</span></div><div class="lbl">manual doc-production effort, agentic automation (Samsung)</div></div>
+
+      <div class="dcim">
+        <b>&#9733; Built for people and AI agents</b>
+        Taxonomies, docs-as-code, release lifecycles and validation workflows that both can rely on.
+      </div>
+
+      <h2 class="sec"><span class="hash" aria-hidden="true">##</span> Stack</h2>
+      <div class="railgroup"><b>release &amp; program</b><span>Jira (Zephyr) · Asana · Salesforce · Odoo · release calendars · defect lifecycle</span></div>
+      <div class="railgroup"><b>docs-as-code &amp; knowledge systems</b><span>Git/GitHub · Hugo · Sphinx · Confluence · Glean · Markdown · DITA · OpenAPI</span></div>
+      <div class="railgroup"><b>qa &amp; automation</b><span>Playwright · Cypress · Selenium · Postman/Newman · ReadyAPI</span></div>
+      <div class="railgroup"><b>ai workflows</b><span>Claude Code (agentic workflows, skills, MCP) · GPT/Gemini APIs · Python · TypeScript · SQL</span></div>
+
+      <h2 class="sec"><span class="hash" aria-hidden="true">##</span> Beyond the Build</h2>
+      <div class="beyond"><b>Guest, API The Docs podcast</b> — writers as AI orchestrators (2026)</div>
+      <div class="beyond"><b>Screenwriter, &#8220;Why Knot&#8221;</b> — documentary on Netflix</div>
+      <div class="beyond"><b>Independent research</b> — LLM memory &amp; retrieval; more publishing soon</div>
+      <div class="beyond"><b>Projects</b> (ask me) — latch · what‑changed · read‑better · trading data platform · tax‑redact · <a href="https://github.com/tashfeenm/hoist">hoist</a> (OSS)</div>
+
+      <h2 class="sec"><span class="hash" aria-hidden="true">##</span> Education</h2>
+      <div class="beyond"><b>B.Sc. Computer Engineering</b>, North South U &nbsp;·&nbsp; <b>M.A. English</b>, UBC (cognitive linguistics)</div>
+      <div class="beyond">OpenAPI Certificate &#8217;24 &nbsp;·&nbsp; Stanford AI Bootcamp &#8217;23 &nbsp;·&nbsp; Elements of AI, U. Helsinki &#8217;22</div>
+
+    </aside>
+  </div>
+
+  <footer class="foot">
+    <div><span class="g">&#9656;</span> This resume ships as release notes. Full history &amp; references: <a href="https://www.linkedin.com/in/tashfeenca">linkedin.com/in/tashfeenca</a></div>
+    <div class="line2">ATS/agent-readable versions: <a href="https://github.com/tashfeenm/resume">github.com/tashfeenm/resume</a></div>
+  </footer>
+
+</div>
+</body>
+</html>
