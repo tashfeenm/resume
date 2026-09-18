@@ -18,7 +18,17 @@
     {
       "type": "paragraph",
       "heading": "Summary",
-      "text": "Technical program and knowledge-systems leader — 16+ years (2009–present) across program operations, documentation operations, software release management, and QA, 10+ of them leading teams of 2–40 — who turns messy, distributed information into structured, governed sources of truth that people and AI agents can both rely on. Currently owns the documentation release lifecycle for Samsung Knox APIs, sits on the API Governance committee that signs off on REST API designs for product releases, and built agentic documentation and review automation (custom Claude Code skills, MCP integrations, CLIs) that cut manual production effort by up to 80%. Program- and project-managed developer onboarding and enablement at EA, Hyperview, Affirm, and Hyperwallet, defining and tracking the KPIs behind them (time-to-proficiency up to +40%, support demos 220→35/month, onboarding NPS 9.8); replaced Affirm's fragmented documentation platforms with a single source of truth (findability +300%, $140K+/year saved); owned build/QA/GA release management end-to-end at FDM; ran REST API documentation and QA for DCIM software (Hyperview) and payments APIs processing 1B+ transactions/year (Hyperwallet/PayPal). Independent research on LLM memory and retrieval — how context must be structured so a model can reliably retrieve and act on it. Fluent with APIs, data models, Git/GitHub, Jira/Confluence, and analytics tooling; effective in ambiguous environments where the right systems don't exist yet."
+      "text": "16+ years (2009–present) in documentation systems, 10+ of them leading teams of 2–40 across information architecture, API design, developer education, editorial governance, and release management. I define what good documentation looks like, then build the standards and machinery that keep it good at scale."
+    },
+    {
+      "type": "paragraph",
+      "heading": null,
+      "text": "My background spans computer engineering, cognitive linguistics, magical realism, screenwriting, and tech journalism. I've often worn product, developer, or QA hats alongside the writing."
+    },
+    {
+      "type": "paragraph",
+      "heading": null,
+      "text": "I build automation without trading away editorial judgment, especially where humans and AI systems share the work. Most recently: an AI-assisted content pipeline for Samsung Knox that picks up Jira tickets, classifies them, resolves pre-approved tiers autonomously and drafts PRs for the rest, runs a scheduled self-learning pass, and publishes nothing without editor sign-off — cutting manual production effort by up to 80%. Outside work, I'm usually building in Claude Code, reading fiction, or playing with my daughter."
     },
     {
       "type": "paragraph",
@@ -45,7 +55,7 @@
           "dates": "2024 – Present",
           "bullets": [
             "Own the documentation release lifecycle for Samsung Knox APIs and Samsung Education platforms — synchronizing developer documentation with software release cadences across parallel versions and aligning Engineering, Product, and QA on a single source of truth",
-            "Built AI-assisted end-to-end documentation and review automation (agentic coding workflows, custom skills for Knox products, MCP integrations, custom CLI development), reducing manual production effort by up to **80%**",
+            "Built an AI-assisted content pipeline for Knox documentation (custom skills, MCP integrations, CLIs) that ingests and classifies Jira tickets, autonomously resolves pre-approved tiers and drafts PRs for complex ones, and improves through a scheduled learning pass — every change gated by editorial sign-off; manual production effort down by up to **80%**",
             "Mentor developers and sign off on REST API designs for product releases as a member of the API Governance committee"
           ]
         },
@@ -135,9 +145,9 @@
       "type": "bullets",
       "heading": null,
       "bullets": [
-        "latch — Python CLI automating the AI-assisted dev loop: gates, GPT code review, release, consumer sync (private)",
-        "what-changed — local, user-owned change-memory layer: provenance-linked “what changed?” across Jira/GitHub (private)",
-        "read-better — parses Jira/Confluence, OpenAPI, Figma, Playwright output into token-efficient blocks for AI agents (private)",
+        "latch-ci — Python CLI + GitHub Actions automating the AI-assisted dev loop: gates, rubric-scored review, release, consumer sync (OSS, MIT)",
+        "what-changed — local, user-owned change-memory layer: provenance-linked “what changed?” across Jira/GitHub (OSS, MIT)",
+        "read-better — parses Jira/Confluence, OpenAPI, Figma, Playwright output into token-efficient blocks for AI agents (OSS, MIT)",
         "trading-research data platform — 7.1B-row, 43-dataset lake with a deduped, split-adjusted DuckDB scan layer (private)",
         "tax-redact — local-first PII scrubber for Canadian tax slips before they are shared with AI tools (private, prototype)",
         "hoist — Claude Code skill: promotes chosen files from a dirty repo to a clean, checked branch; push-gated (OSS, MIT)"
