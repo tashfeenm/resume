@@ -56,7 +56,8 @@
           "bullets": [
             "Own the documentation release lifecycle for Samsung Knox APIs and Samsung Education platforms — synchronizing developer documentation with software release cadences across parallel versions and aligning Engineering, Product, and QA on a single source of truth",
             "Built an AI-assisted content pipeline for Knox documentation (custom skills, MCP integrations, CLIs) that ingests and classifies Jira tickets, autonomously resolves pre-approved tiers and drafts PRs for complex ones, and improves through a scheduled learning pass — every change gated by editorial sign-off; manual production effort down by up to **80%**",
-            "Mentor developers and sign off on REST API designs for product releases as a member of the API Governance committee"
+            "One of three members of the API Governance committee signing off on REST API designs across Knox Cloud Services and HQ teams; maintain the org-wide repository of AI skills and tools and am standing up an AI governance guild",
+            "Built agent-facing YAML/Markdown/JSON parsing skills: token use down **45%+** (90%+ on large files), accuracy up **52%+**"
           ]
         },
         {
@@ -170,7 +171,7 @@
         "Knowledge & content systems: Confluence, Notion, Coda, Guru, Glean, Contentful; IA tooling (Optimal Workshop, Treejack, PoolParty); Hugo, Sphinx; Markdown, DITA, OpenAPI",
         "Program, release & QA tooling: Jira (Zephyr), Asana, Salesforce, Odoo; Git/GitHub; Playwright, Cypress, Postman",
         "Data & reporting: Power BI, Tableau, Grafana, Google Analytics; SQL (PostgreSQL, MySQL, SQLite)",
-        "AI & automation: Claude Code (agentic workflows, skills, MCP), GPT/Gemini APIs, Copilot, Cursor; Python, TypeScript"
+        "AI & automation: Claude Code (agentic workflows, skills, MCP), OpenAI Codex, GPT/Gemini APIs, Copilot, Cursor; Python, TypeScript"
       ]
     }
   ]
