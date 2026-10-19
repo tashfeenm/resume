@@ -44,7 +44,7 @@ I build automation without trading away editorial judgment, especially where hum
 
 - Consolidated fragmented documentation platforms into a single source of truth in partnership with Product leadership, saving **$140K+ per year**; designed the information architecture and taxonomy behind a unified search hub that improved content findability **300%**
 - Directed documentation, support, and training programs across HR, engineering, and L&D platforms (Workday, Jira, Confluence, Docebo, Coda), leading teams of 2–8
-- Launched an org-wide engineering onboarding program (**NPS 9.8**); maintained regulatory-compliant policies for payment plans and insurance in a fintech environment; built and launched the end-to-end onboarding and learning program for Thor, the internal build-management system
+- Launched an org-wide engineering onboarding program (rated **9.8/10** by ~125 engineers); maintained regulatory-compliant policies for payment plans and insurance in a fintech environment; built and launched the end-to-end onboarding and learning program for Thor, the internal build-management system
 
 ### Hyperview (DCIM — Data Center Infrastructure Management) — Lead, Documentation & QA
 
@@ -59,7 +59,7 @@ I build automation without trading away editorial judgment, especially where hum
 *January 2019 – March 2020*
 
 - Led documentation and education strategy for the Frostbite engine, aligning Product, Engineering, and Domain leadership on cross-functional projects of 2–20 people; grew the documentation team from 2 to 6
-- Maintained versioned content across parallel engine development branches; introduced product bulletins and revamped developer onboarding, improving time-to-proficiency by up to **40%**
+- Maintained versioned content across parallel engine development branches; introduced product bulletins and revamped developer onboarding, raising developer proficiency by up to **40%**
 - Implementation-committee member for SAP SuccessFactors, Contentful, and Cornerstone; led internal development and documentation projects for proprietary generative-AI, AR, and VR tooling; credited on FIFA, Need for Speed, Battlefield, and Madden
 
 ### BMC Software — Lead Information Developer — BMC Helix
