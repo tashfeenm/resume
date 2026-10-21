@@ -2,7 +2,7 @@
 
 **AI Enablement & Knowledge Systems Leader — Knowledge Infrastructure, Docs-as-Code & Release Operations**
 
-Langley, BC, Canada (Pacific Time) · tashfeenmahmud@gmail.com · https://www.linkedin.com/in/tashfeenca · https://github.com/tashfeenm · https://tashfeenm.github.io/resume/
+Langley, BC, Canada · tashfeenmahmud@gmail.com · https://www.linkedin.com/in/tashfeenca · https://github.com/tashfeenm · https://tashfeenm.github.io/resume/
 
 ## Summary
 
@@ -59,7 +59,7 @@ I build automation without trading away editorial judgment, especially where hum
 *January 2019 – March 2020*
 
 - Led documentation and education strategy for the Frostbite engine, aligning Product, Engineering, and Domain leadership on cross-functional projects of 2–20 people; grew the documentation team from 2 to 6
-- Maintained versioned content across parallel engine development branches; introduced product bulletins and revamped developer onboarding, raising developer proficiency by up to **40%**
+- Maintained versioned content across parallel engine development branches; introduced product bulletins and revamped developer onboarding, informed by developer surveys and product and content analytics
 - Implementation-committee member for SAP SuccessFactors, Contentful, and Cornerstone; led internal development and documentation projects for proprietary generative-AI, AR, and VR tooling; credited on FIFA, Need for Speed, Battlefield, and Madden
 
 ### BMC Software — Lead Information Developer — BMC Helix
