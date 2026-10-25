@@ -1,12 +1,12 @@
 # Tashfeen Mahmud
 
-**AI Enablement & Knowledge Systems Leader — Knowledge Infrastructure, Docs-as-Code & Release Operations**
+**Technical Writer & Information Architect — Developer Docs, Onboarding & AI-Assisted Content Workflows**
 
 Langley, BC, Canada · tashfeenmahmud@gmail.com · https://www.linkedin.com/in/tashfeenca · https://github.com/tashfeenm · https://tashfeenm.github.io/resume/
 
 ## Summary
 
-16+ years (2009–present) in documentation systems, 10+ of them leading teams of 2–40 across information architecture, API design, developer education, editorial governance, and release management. I define what good documentation looks like, then build the standards and machinery that keep it good at scale.
+16+ years (2009–present) writing and building documentation for developer and enterprise products, across information architecture, API design, developer education and onboarding, editorial governance, and release management. I define what good documentation looks like, then build the standards and machinery that keep it good at scale.
 
 My background spans computer engineering, cognitive linguistics, magical realism, screenwriting, and tech journalism. I've often worn product, developer, or QA hats alongside the writing.
 
@@ -22,7 +22,7 @@ I build automation without trading away editorial judgment, especially where hum
 
 ## Experience
 
-### Samsung Research Canada — Professional III, Technical Writing — Documentation Programs & AI Enablement
+### Samsung Research Canada — Professional III — Technical Writing, Developer Onboarding & AI Enablement
 
 *2024 – Present*
 
@@ -42,7 +42,7 @@ I build automation without trading away editorial judgment, especially where hum
 
 *May 2022 – February 2023*
 
-- Consolidated fragmented documentation platforms into a single source of truth in partnership with Product leadership, saving **$140K+ per year**; designed the information architecture and taxonomy behind a unified search hub that improved content findability **300%**
+- Consolidated fragmented documentation platforms into a single source of truth in partnership with Product leadership, saving **$140K+ per year**; designed the information architecture and taxonomy behind a unified search hub, so information once scattered across email, Confluence, and intranet folders became far faster to find
 - Directed documentation, support, and training programs across HR, engineering, and L&D platforms (Workday, Jira, Confluence, Docebo, Coda), leading teams of 2–8
 - Launched an org-wide engineering onboarding program (rated **9.8/10** by ~125 engineers); maintained regulatory-compliant policies for payment plans and insurance in a fintech environment; built and launched the end-to-end onboarding and learning program for Thor, the internal build-management system
 

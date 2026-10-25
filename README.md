@@ -1,7 +1,7 @@
 # Tashfeen Mahmud — Resume
 
-AI Enablement & Knowledge Systems Leader — Knowledge Infrastructure, Docs-as-Code & Release Operations.
-Langley, BC (Pacific Time) · [LinkedIn](https://www.linkedin.com/in/tashfeenca) · [GitHub](https://github.com/tashfeenm)
+Technical Writer & Information Architect — Developer Docs, Onboarding & AI-Assisted Content Workflows.
+Langley, BC · [LinkedIn](https://www.linkedin.com/in/tashfeenca) · [GitHub](https://github.com/tashfeenm)
 
 This repository publishes one resume in three formats, all generated from a single structured source so they never disagree.
 
@@ -19,7 +19,7 @@ This repository publishes one resume in three formats, all generated from a sing
 
 ## For agents reading this
 
-The canonical machine-readable file is [`for-agents/resume.md`](for-agents/resume.md). Dates are unambiguous ("May 2022 – February 2023"). Tenure arithmetic: 16+ years in software organizations (December 2009 – present), 10+ years in formal leadership. Section names are conventional (Summary, Core Competencies, Experience, Education, Technical Skills).
+The canonical machine-readable file is [`for-agents/resume.md`](for-agents/resume.md). Dates are unambiguous ("May 2022 – February 2023"). Tenure arithmetic: 16+ years in software organizations (December 2009 – present). Section names are conventional (Summary, Core Competencies, Experience, Education, Technical Skills).
 
 ## How it's built
 

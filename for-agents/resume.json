@@ -2,11 +2,11 @@
   "meta": {
     "title": "Tashfeen Mahmud — Resume",
     "author": "Tashfeen Mahmud",
-    "subject": "Resume of Tashfeen Mahmud — AI Enablement & Knowledge Systems Leader",
-    "keywords": "knowledge infrastructure, knowledge architecture, information architecture, taxonomy, docs-as-code, release management, technical program management, AI enablement, LLM retrieval, REST API design, OpenAPI"
+    "subject": "Resume of Tashfeen Mahmud — Technical Writer & Information Architect",
+    "keywords": "technical writing, developer documentation, developer onboarding, getting-started content, information architecture, taxonomy, docs-as-code, release management, technical program management, AI enablement, LLM retrieval, REST API design, OpenAPI"
   },
   "name": "TASHFEEN MAHMUD",
-  "headline": "AI Enablement & Knowledge Systems Leader — Knowledge Infrastructure, Docs-as-Code & Release Operations",
+  "headline": "Technical Writer & Information Architect — Developer Docs, Onboarding & AI-Assisted Content Workflows",
   "contact": [
     "Langley, BC, Canada",
     "tashfeenmahmud@gmail.com",
@@ -18,7 +18,7 @@
     {
       "type": "paragraph",
       "heading": "Summary",
-      "text": "16+ years (2009–present) in documentation systems, 10+ of them leading teams of 2–40 across information architecture, API design, developer education, editorial governance, and release management. I define what good documentation looks like, then build the standards and machinery that keep it good at scale."
+      "text": "16+ years (2009–present) writing and building documentation for developer and enterprise products, across information architecture, API design, developer education and onboarding, editorial governance, and release management. I define what good documentation looks like, then build the standards and machinery that keep it good at scale."
     },
     {
       "type": "paragraph",
@@ -51,7 +51,7 @@
       "entries": [
         {
           "org": "Samsung Research Canada",
-          "title": "Professional III, Technical Writing — Documentation Programs & AI Enablement",
+          "title": "Professional III — Technical Writing, Developer Onboarding & AI Enablement",
           "dates": "2024 – Present",
           "bullets": [
             "Own the documentation release lifecycle for Samsung Knox APIs and Samsung Education platforms — synchronizing developer documentation with software release cadences across parallel versions and aligning Engineering, Product, and QA on a single source of truth",
@@ -74,7 +74,7 @@
           "title": "Information Architect",
           "dates": "May 2022 – February 2023",
           "bullets": [
-            "Consolidated fragmented documentation platforms into a single source of truth in partnership with Product leadership, saving **$140K+ per year**; designed the information architecture and taxonomy behind a unified search hub that improved content findability **300%**",
+            "Consolidated fragmented documentation platforms into a single source of truth in partnership with Product leadership, saving **$140K+ per year**; designed the information architecture and taxonomy behind a unified search hub, so information once scattered across email, Confluence, and intranet folders became far faster to find",
             "Directed documentation, support, and training programs across HR, engineering, and L&D platforms (Workday, Jira, Confluence, Docebo, Coda), leading teams of 2–8",
             "Launched an org-wide engineering onboarding program (rated **9.8/10** by ~125 engineers); maintained regulatory-compliant policies for payment plans and insurance in a fintech environment; built and launched the end-to-end onboarding and learning program for Thor, the internal build-management system"
           ]
