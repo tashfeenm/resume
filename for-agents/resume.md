@@ -33,14 +33,14 @@ I build automation without trading away editorial judgment, especially where hum
 
 ### Insurance Corporation of British Columbia (via Serendip Consulting) — Lead Procedure Analyst
 
-*June 2023 – April 2024*
+*July 2023 – April 2024*
 
 - Led 6 analysts producing procedures and writing guidelines for the org-wide SAP SuccessFactors (HR) implementation under public-sector regulatory standards
 - Introduced AI-driven draft generation and editorial workflows using MS Copilot
 
 ### Affirm — Information Architect
 
-*May 2022 – February 2023*
+*June 2022 – February 2023*
 
 - Consolidated fragmented documentation platforms into a single source of truth in partnership with Product leadership, saving **$140K+ per year**; designed the information architecture and taxonomy behind a unified search hub, so information once scattered across email, Confluence, and intranet folders became far faster to find
 - Directed documentation, support, and training programs across HR, engineering, and L&D platforms (Workday, Jira, Confluence, Docebo, Coda), leading teams of 2–8
