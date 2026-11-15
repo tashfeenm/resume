@@ -24,7 +24,7 @@ I build automation without trading away editorial judgment, especially where hum
 
 ### Samsung Research Canada — Professional III — Technical Writing, Developer Onboarding & AI Enablement
 
-*2024 – Present*
+*July 2024 – Present*
 
 - Own the documentation release lifecycle for Samsung Knox APIs and Samsung Education platforms — synchronizing developer documentation with software release cadences across parallel versions and aligning Engineering, Product, and QA on a single source of truth
 - Built an AI-assisted content pipeline for Knox documentation (custom skills, MCP integrations, CLIs) that ingests and classifies Jira tickets, autonomously resolves pre-approved tiers and drafts PRs for complex ones, and improves through a scheduled learning pass — every change gated by editorial sign-off; manual production effort down by up to **80%**
